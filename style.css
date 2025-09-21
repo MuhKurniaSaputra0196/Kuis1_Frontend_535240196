@@ -423,3 +423,45 @@ footer .copyright {
   margin-left: 1rem;
   object-fit: contain;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .detail-container {
+    padding: 1.5rem;
+    margin: 2rem 1rem;
+  }
+
+  .detail-img {
+    max-height: none;
+    border-radius: 8px;
+  }
+
+  .fitur-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .app-download img {
+    width: 100px;
+  }
+
+  .footer-section {
+    padding: 0 0.5rem;
+  }
+}
